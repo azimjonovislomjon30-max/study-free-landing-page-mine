@@ -115,14 +115,35 @@
 .apply_to_study_socials li{
   list-style: none;
 }
-.apply_to_study_content {
 
+/* Universitys section  */
+
+.featureduniversities {
+  width: 1313px;
+  height: 423px;
+  background-color: #FAFAFA;
 }
-.section_study_title {
+.universities{
+  width: 1196px;
+  height: 80px;
 }
-.section_study_description {
+.universitiestitle{
+  font-size: 30px;
+  padding-top: 55px;
+  padding-bottom: 85px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #00000077;
 }
-.apply_online_button {
+.universities ul{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.apply_to_study_socials {
+.universities ul li{
+  list-style: none;
 }
+
+/* Our services  */
+
