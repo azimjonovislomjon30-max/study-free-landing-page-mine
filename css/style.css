@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:focus{
+  outline-color: orange;
+  outline-offset: 3px;
+  outline-width: 2px;
+  outline-style: dotted;
+  color: orange;
+  padding-bottom: 5px;
+  border-bottom: 2px solid blue;
+}
+.container{
+  width: 100%;
+  max-width: 1440px;
+  background-color: #ffffff;
+  border-top: 5px solid #ff7500;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/Oval.png");
+  background-size: 600px 600px;
+  background-position: 860px 450px;
+  background-repeat: no-repeat;
+}
+.result_box {
+  width: 1183px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header{
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header nav ul {
+  width: 862px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.header nav ul li{
+  list-style: none;
+}
+.header nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+.header nav ul li a:hover{
+  color: orange;
+  padding-bottom: 5px;
+  border-bottom: 2px solid blue;
+}
+.main_link{
+  width: 111px;
+  height: 42px;
+  border: 1px solid blue;
+  border-radius: 8px;
+  padding: 5px 15px 5px 15px;
+  transition: opacity ease 2s;
+}
+.main_link:hover{
+  color: white;
+}
+
+/* apply_to_study section */
+.apply_to_study{
+  width: 100%;
+  height: 565px;
+  margin-top: 127px;
+  display: flex;
+  justify-content: space-between;
+}
+.blueword{
+  color: #717CFF;
+}
+.section_study_title {
+  font-size: 58px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 24px;
+
+}
+.section_study_description {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.586);
+  padding-top: 15px;
+}
+.apply_online_button {
+  width: 262px;
+  height: 64px;
+  margin-top: 42px;
+  border-radius: 8px;
+  background-color: #717CFF;
+  font-size: 23px;
+  color: #ffffff;
+  background-image: url("../img/arrow_forward_24px.svg");
+  background-size: 28px, 26px;
+  background-repeat: no-repeat;
+  background-position: 220px;
+}
+.apply_to_study_socials {
+  width: 113px;
+  height: 31px;
+  margin-top: 101px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.apply_to_study_socials li{
+  list-style: none;
+}
+.apply_to_study_content {
+
+}
+.section_study_title {
+}
+.section_study_description {
+}
+.apply_online_button {
+}
+.apply_to_study_socials {
+}
