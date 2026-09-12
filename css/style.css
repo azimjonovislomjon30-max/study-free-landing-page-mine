@@ -103,6 +103,10 @@
   background-size: 28px, 26px;
   background-repeat: no-repeat;
   background-position: 220px;
+  cursor: pointer;
+}
+.apply_online_button:hover{
+  opacity: 0.8;
 }
 .apply_to_study_socials {
   width: 113px;
@@ -146,4 +150,3 @@
 }
 
 /* Our services  */
-
