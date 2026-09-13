@@ -119,6 +119,9 @@
 .apply_to_study_socials li{
   list-style: none;
 }
+.apply_to_study_socials li a:hover{
+  opacity: 0.5;
+}
 
 /* Universitys section  */
 
@@ -198,11 +201,47 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-
 }
 .servicesbox {
   width: 344px;
   height: 351px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
+  padding-top: 29px;
+}
+.servicesbox:hover{
+  border: 3px solid #5764f2;
+  cursor: pointer;
+}
+.boxicons{
+ margin-left: 31px;
+}
+.boxtitle{
+  margin-top: 30px;
+  margin-bottom: 18px;
+  font-size: 20px;
+  margin-left: 31px;
+  color: rgba(0, 0, 0, 0.686);
+}
+.boxparagraf {
+  color: rgba(0, 0, 0, 0.451);
+  line-height: 1.5;
+  margin-left: 31px;
+  margin-bottom: 25px;
+}
+.buttonlearnmore {
+  font-size: 17x;
+  color: #5764f2;
+  text-decoration: none;
+  margin-left: 31px;
+}
+.buttonlearnmore:hover{
+      opacity: 0.6;
+}
+.buttonlearnmore svg{
+  margin-left: 10px;
+  position: absolute;
+}
+.buttonlearnmore svg:hover{
+  opacity: 0.6;
 }
