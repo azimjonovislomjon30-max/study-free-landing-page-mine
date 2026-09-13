@@ -136,7 +136,7 @@
   padding-top: 55px;
   padding-bottom: 85px;
   text-transform: uppercase;
-  text-align: center;
+  margin-left: 410px;
   color: #00000077;
 }
 .universities ul{
@@ -148,5 +148,48 @@
 .universities ul li{
   list-style: none;
 }
+.univercitiesbottomcircle{
+  width: 107px;
+  height: 14px;
+  margin-top: 106px;
+  margin-left: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.univercitiesbottomcircle li{
+  width: 10px;
+  height: 10px;
+  border: 1px solid #00000077;
+  border-radius: 50%;
+  list-style: none;
+}
+.univercitiesbottomcircle li:hover{
+  background-color: #717CFF;
+  border: 1px solid #717CFF;
+  cursor: pointer;
+}
+.univercitiesbottomcircle li:active{
+  opacity: 0.5;
+}
 
 /* Our services  */
+
+.ourservices{
+  width: 100%;
+}
+.Servicestitle {
+  text-align: center;
+  font-size: 30px;
+}
+.Servicesparagraf {
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.651);
+}
+.services {
+
+}
+.servicesbox {
+
+}
