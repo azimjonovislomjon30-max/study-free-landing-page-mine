@@ -245,3 +245,56 @@
 .buttonlearnmore svg:hover{
   opacity: 0.6;
 }
+
+/* Section News  */
+
+.news {
+  width: 100%;
+  margin-top: 228px;
+}
+.newstitle {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 18px;
+}
+.newsparagraf {
+  text-align: center;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 110px;
+  color: rgba(0, 0, 0, 0.521);
+}
+.newsbox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.newsboxitem {
+  width: 344px;
+  height: 406px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.203);
+  border-radius: 8px;
+}
+.newsdate {
+  padding-top: 28px;
+  padding-left: 23px;
+}
+.newsdate span{
+  padding-left: 30px;
+}
+.newsdate svg{
+  position: absolute;
+}
+.informations{
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-left: 23px;
+}
+.newsbutton{
+  margin-top: 146px;
+  margin-left: 540px;
+}
