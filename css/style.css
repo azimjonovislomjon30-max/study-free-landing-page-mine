@@ -433,3 +433,32 @@
   font-size: 17px;
   color: #00000077;
 }
+
+/* last section  */
+.lastsection{
+  width: 100%;
+  margin-top: 120px;
+  margin-bottom: 74px;
+}
+.lastsection-title{
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 400px;
+}
+.lastsection_button{
+  width: 262px;
+  height: 64px;
+  margin-top: 42px;
+  border-radius: 8px;
+  background-color: #717CFF;
+  font-size: 23px;
+  color: #ffffff;
+  background-image: url("../img/arrow_forward_24px.svg");
+  background-size: 28px, 26px;
+  background-repeat: no-repeat;
+  background-position: 220px;
+  cursor: pointer;
+}
+.lastsection_button:hover{
+  opacity: 0.8;
+}
