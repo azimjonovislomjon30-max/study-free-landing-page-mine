@@ -403,3 +403,26 @@
 .eventtime svg{
   position: absolute;
 }
+
+/* Upcoming university events  */
+
+.coveredcountries{
+ width: 100%;
+ margin-top: 108px;
+}
+.coveredcountriesbox{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.countriestitle{
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+  color: #000000aa;
+}
+.countriesinformations{
+  padding-top: 10px;
+  color: #00000084;
+  line-height: 22px;
+}
