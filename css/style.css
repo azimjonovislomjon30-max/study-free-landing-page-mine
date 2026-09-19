@@ -277,6 +277,7 @@
   height: 406px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.203);
   border-radius: 8px;
+  cursor: pointer;
 }
 .newsdate {
   padding-top: 28px;
@@ -295,6 +296,110 @@
   padding-left: 23px;
 }
 .newsbutton{
+  width: 226px;
+  height: 64px;
+  margin-top: 42px;
+  border-radius: 8px;
+  background-color: #717CFF;
+  font-size: 23px;
+  color: #ffffff;
+  background-image: url("../img/arrow_forward_24px.svg");
+  background-size: 28px, 26px;
+  background-repeat: no-repeat;
+  background-position: 180px;
+  cursor: pointer;
   margin-top: 146px;
-  margin-left: 540px;
+  margin-left: 460px;
+}
+.newsbutton:hover{
+  opacity: 0.8;
+}
+
+/* Upcoming university events section  */
+
+.upcomingevents {
+  width: 100%;
+  margin-top: 222px;
+}
+.upcomingeventstitle {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 18px;
+}
+.upcomingeventsparagraf {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 100px;
+  color: rgba(0, 0, 0, 0.521);
+}
+.upcomingeventsbox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.upcomingeventsboxitem {
+  width: 540px;
+  height: 308px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.203);
+  border-radius: 5px;
+  padding-top: 29px;
+  padding-left: 31px;
+}
+.eventdatetitlebox{
+  display: flex;
+}
+.eventdate {
+  width: 76px;
+  height: 76px;
+  border-radius: 5px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #0342ffb1;
+  text-align: center;
+  background-color: #0342ff20;
+  padding: 5px;
+}
+.eventtitle {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.686);
+  margin-left: 15px;
+  line-height: 35px;
+}
+.eventinformations {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.451);
+  line-height:25px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.buttonlearnmore-forupcomingevents {
+  font-size: 17x;
+  color: #5764f2;
+  text-decoration: none;
+}
+.buttonlearnmore-forupcomingevents:hover{
+      opacity: 0.6;
+}
+.buttonlearnmore-forupcomingevents svg{
+  margin-left: 10px;
+  position: absolute;
+}
+.buttonlearnmore-forupcomingevents svg:hover{
+  opacity: 0.6;
+}
+.eventtime{
+  margin-left: 210px;
+  letter-spacing: 0.5px;
+}
+.eventtime span{
+  padding-right: 30px;
+}
+.eventtime svg{
+  position: absolute;
 }
